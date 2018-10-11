@@ -1,7 +1,10 @@
-CREATE TABLE PROJECTS(
+CREATE TABLE projects (
 id INTEGER PRIMARY KEY,
 title TEXT,
-category
+category ,
+funding_goal,
+start_date,
+end_date,
 );
 
 CREATE TABLE (
